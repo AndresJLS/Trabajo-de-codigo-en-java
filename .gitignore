@@ -1,0 +1,44 @@
+# ============================
+# IntelliJ IDEA
+# ============================
+.idea/
+*.iml
+out/
+shelf/
+workspace.xml
+httpRequests/
+dataSources/
+dataSources.local.xml
+
+# ============================
+# Java / Compilación
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+
+# ============================
+# Maven
+# ============================
+target/
+
+# ============================
+# Gradle
+# ============================
+.gradle/
+build/
+
+# ============================
+# Logs y temporales
+# ============================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ============================
+# Sistema operativo
+# ============================
+.DS_Store
+Thumbs.db
