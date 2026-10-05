@@ -1,17 +1,26 @@
-Proyecto final de la materia de Desarrollo de Sistemas III
+## Prácticas de Concurrencia (Utilerias de Java para concurrencia)
 
-"PollosTech"
+**Tecnologías Utilizadas:**
+Java
 
-Requerimentos:
-PostgreSQL
-Java 17 (Mínimo)
+**¿Qué es cada parte?**
+1. SemDemo.java: ejemplo de Semaphore
+2. ProdCon.java: implementación del problema productor-consumir con el uso de semáforos
+3. CDLDemo.java: ejemplo de CountDownLatch
+4. BarDemo.java: ejemplo de CyclicBarrier
+5. BarDemo2.java: ejemplo 2 de CyclicBarrier
+6. ExgrDemo.java: ejemplo de Exchanger
+7. SimpExec.java: ejemplo de ExecutorServices
+8. CallableDemo.java: ejemplo de la interface Callable
+9. LockDemo.java: ejemplo de Lock (candado)
+10. AtomicDemo.java: ejemplo de Atomic
 
-Inicializar el programa:
+    **Algunos resultados:**
 
-0. En el caso de descargar el código, se requiere cambiar las credenciales para acceder a la BD en el LoginController.java
-1. Ejecutar el .jar o el Launcher.java, esto creará la base de datos PollosTech si no existe
-2. Copiar y ejecutar el database_structure.sql en la BD de PollosTech en PgAdmin para crear las tablas, relaciones y restricciones.
-3. Iniciar sesión en el programa, con las credenciales de Admin:
-   Usuario: admin
-   Contraseña: admin
-4. Para cerrar sesión, presionar el botón rojo de la izquierda inferior, esto regresará al Login.
+SemDemo:
+    
+<img width="283" height="362" alt="image" src="https://github.com/user-attachments/assets/e2c724c3-d197-41fd-8513-3c6fb8b0fd28" />
+
+AtomicDemo:
+
+<img width="180" height="257" alt="image" src="https://github.com/user-attachments/assets/5e195c55-aaf3-4afc-9a05-4d0c716f8937" />
